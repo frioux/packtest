@@ -3,8 +3,8 @@
 The shell script in this repo is meant to measure the cost of large files with
 small diffs over lots of commits.
 
-Experiment: create 500 vesions of a file that's basically $(seq $version $((
-$version + 1000000))); which is about 7 megabytes.  Initial creation of the
+Experiment: create 500 vesions of a file that's basically `$(seq $version $((
+$version + 1000000)))`; which is about 7 megabytes.  Initial creation of the
 data was large and inefficient:
 
 ```bash
